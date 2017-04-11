@@ -179,7 +179,8 @@
     //Function => merupakan wadah yang bisa mencakup lebih banyak data daripada variabel
     echo '<h3>Function</h3>';
 
-    function functionKu() {
+    function functionKu() 
+    {
     	echo 'Functionku';
 
     	echo '<br>';
@@ -193,7 +194,8 @@
     echo '<br>';
 
 
-    function withParameter($namadpn) { //parameter ialah data masukkan yang nantinya diproses lebih lanjut lagi
+    function withParameter($namadpn) //parameter ialah data masukkan yang nantinya diproses lebih lanjut lagi
+    { 
     	echo $namadpn.' Kinder <br>';
     }
 
